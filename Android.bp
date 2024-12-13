@@ -321,6 +321,15 @@ prebuilt_etc_xml {
 	device_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "vibrator-default.xml",
+	owner: "realme",
+	src: "proprietary/odm/etc/vintf/manifest/vibrator-default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
 install_symlink {
 	name: "libimscamera_jni_libimscamera_jni_symlink64",
 	system_ext_specific: true,
